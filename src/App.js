@@ -7,6 +7,7 @@ import List from './Components/List';
 import Movie from './Components/Movie';
 import BoxColor from './Components/BoxColor';
 import CreditCard from './Components/CreditCard';
+import Rating from './Components/Rating';
 
 function App() {
   return (
@@ -87,6 +88,15 @@ function App() {
           bgColor="#eeeeee"
           color="#222222"
         />
+      </div>
+      <div className="section">
+        <h2 className="title is-3 ">RATINGS</h2>
+        <Rating>2.1</Rating>
+        <Rating>5.355</Rating>
+        <Rating>0</Rating>
+        <Rating>9</Rating>
+        <Rating>3.8</Rating>
+        <Rating>1.9</Rating>
       </div>
     </div>
   );
